@@ -1,0 +1,13 @@
+- Corrigido o atributo `lang` na tag `<html>`.
+- Adicionada a meta tag de viewport para responsividade em dispositivos móveis.
+- Utilização correta das tags semânticas `<header>`, `<main>`, `<section>`, `<table>`, `<thead>`, `<tbody>`, `<th>`, `<td>`.
+- Estrutura do HTML reorganizada para melhor acessibilidade e leitura por leitores de tela.
+- Nomes de classes atualizados para inglês e mais descritivos, facilitando a manutenção e entendimento do código.
+- Garantido contraste adequado entre texto e fundo para melhor legibilidade.
+- Adicionado foco visível para links e elementos interativos, melhorando a acessibilidade para navegação por teclado.
+- Removida a propriedade `font-family` do CSS para utilizar a fonte padrão do sistema.
+- Ajustado o espaçamento, centralização e responsividade do layout com `max-width` e margens automáticas.
+- Melhorada a estrutura da tabela de notas para garantir alinhamento e acessibilidade.
+- Adicionados exemplos de preenchimento visual (blue-box) para campos de notas e faltas.
+- Criada seção para características positivas, com visual destacado e acessível.
+
