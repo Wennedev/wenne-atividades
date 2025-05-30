@@ -1,11 +1,10 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     background-color: #f4f6f8;
     color: #333;
 }
 
-.container {
+.resume-container {
     max-width: 800px;
     margin: 40px auto;
     background-color: #ffffff;
@@ -14,7 +13,7 @@ body {
     border-radius: 12px;
 }
 
-header {
+.resume-header {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -23,7 +22,7 @@ header {
     padding-bottom: 20px;
 }
 
-header img {
+.profile-image {
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -31,24 +30,24 @@ header img {
     border: 3px solid #e0e0e0;
 }
 
-.info-pessoal h1 {
+.personal-info h1 {
     font-size: 2.2em;
     color: #2c3e50;
     margin: 0;
 }
 
-.info-pessoal h3 {
+.personal-info h2 {
     font-size: 1.1em;
     color: #666;
     margin-top: 5px;
     font-weight: normal;
 }
 
-main section {
+.resume-main section {
     margin-bottom: 30px;
 }
 
-main h2 {
+.resume-main h2 {
     font-size: 1.4em;
     color: #2c3e50;
     margin-bottom: 10px;
@@ -60,12 +59,18 @@ p {
     line-height: 1.6;
 }
 
-ul {
+.contact-list {
     list-style: none;
     padding: 0;
     line-height: 1.8;
 }
 
-li {
+.contact-list li {
     font-size: 1em;
+}
+
+/* Acessibilidade: foco visível para links */
+a:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 2px;
 }
