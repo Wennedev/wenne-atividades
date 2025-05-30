@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.report-card-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.report-card-header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.report-card-main section {
+    margin-bottom: 30px;
+}
+
+.grades-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.grades-section th, .grades-section td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.grades-section th {
+    background-color: #f0f4fa;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+.blue-box {
+    width: 40px;
+    height: 30px;
+    background-color: #3498db;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.positive-traits-section h2 {
+    font-size: 1.3em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+}
+
+.traits-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.traits-list p {
+    background: #eaf6fb;
+    color: #3498db;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 0;
+    font-weight: bold;
+}
+
+a:focus, .blue-box:focus {
+    outline: 2px solid #3498db;
+    outline-offset: 2px;
+}
